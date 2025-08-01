@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.6.10"
+    kotlin("jvm") version "1.9.20"
 }
 
 java {
@@ -17,7 +17,11 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
 
+<<<<<<< HEAD
     compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
+=======
+    compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
+>>>>>>> 995d84a2e382278001d3c9341c0569cb4cc93491
 }
 
 tasks {
